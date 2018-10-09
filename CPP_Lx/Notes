@@ -1,0 +1,12 @@
+Q1	Why we required const keyword in assignment operator overloading only,
+	is it mandatory ? then why expain.
+	writing const keyword is my (or my colligue) resposibility, why compiler given me error?
+	=> assignment no.5
+	
+	[update]: I analyse that, ektr copy constructor la const pahij of = operator la const pahij
+		 doghanpaiki ekala tari const havach 
+		 tas pahl tr doghanchi functionality samech ahe, dogh pn eka object madhun dusrya object madhe copy karat ahe
+		 (pan yacha arth asa nahi ki te dogh pn overloaded functions ahet)
+		 
+	Q. but still question remains same, why we need const keyword 
+Debug may solve your issue
