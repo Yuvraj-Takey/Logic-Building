@@ -1,6 +1,6 @@
 # C++ Assignments
 
- - 1. Define a point class, where each object represents point in Cartesian
+  - 1. Define a point class, where each object represents point in Cartesian
 coordinates (x, y). Define objects of this class and calculate the distance
 between the 2 points through a friend function.
 
