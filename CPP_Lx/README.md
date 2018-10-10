@@ -1,6 +1,6 @@
 # C++ Assignments
 
-1. Define a point class, where each object represents point in Cartesian
+ - 1. Define a point class, where each object represents point in Cartesian
 coordinates (x, y). Define objects of this class and calculate the distance
 between the 2 points through a friend function.
 
@@ -32,7 +32,7 @@ display the results of all students using overloaded<<operator. Also include
 functionality to transfer the details of all objects into a file and retrieve the
 details &print on the screen.
 
-7. Define a Double ended queue class. Define a Stack class by extending the
+7. Define a Double ended queue class(deque). Define a Stack class by extending the
 functionality of Double ended queue class. Create objects of both the classes
 and test the functionality
 
@@ -53,6 +53,6 @@ derived from base class through various derivation (private, public and protecte
 
 14. Define a template stack class. Using this template class, create stack objects of int,float,char* and complex type.
 
-15. Define a template double ended queue (deque). Derive template stack and
+15. Define a template double ended queue (using array). Derive template stack and
 queue classes from it. Test it for int and char* type of objects.
 
