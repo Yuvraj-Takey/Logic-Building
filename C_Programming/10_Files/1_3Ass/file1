@@ -1,0 +1,10 @@
+/*
+ * a program that will concatenate two files, that is append the contents of one file at the end of another file
+ * and write the results into a third file. You must be able to execute command at DOS prompt as follows:
+ * C > CONCAT Source 1.txt source 2.txt Target.txt.
+ *
+ *	@Author - Yuvraj Takey
+*/
+
+FILE ONE END_____________________________________________________________
+
