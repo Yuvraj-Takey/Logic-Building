@@ -13,8 +13,8 @@ on a network. More specifically, Internet sockets provide a programming interfac
 
 There are a number of different types of sockets available, but we are only really interested in two
 specific Internet sockets. These are:
-• Stream sockets
-• Datagram sockets
+- Stream sockets
+- Datagram sockets
 
 What differentiates these two socket types is the transport protocol used for data transmission.
 A stream socket uses the Transmission Control Protocol (TCP) for sending messages. TCP provides an ordered and reliable connection between two hosts. This means that for every message sent, TCP guarantees that the message will arrive at the host in the correct order. This is achieved at the
@@ -29,15 +29,14 @@ For example, when transferring a file you want to ensure that, upon receipt, the
 
 # NETWORK PROGRAMMING ASSIGNMENT
 
+1. Write a simple TCP-Server and TCP-Client socket applications, establish connection and observe client and server communication.
 
-    1. Write a simple TCP-Server and TCP-Client socket applications, establish connection and observe client and server communication.
+2. Write a simple UDP-Server and UDP-Client socket application and establish connection and observe client and server communication.
 
-    2. Write a simple UDP-Server and UDP-Client socket application and establish connection and observe client and server communication.
-
-    3. Write a simple UNIX-Server and UNIX-Client socket (TCP) application and establish connection and observe client and server communication.
+3. Write a simple UNIX-Server and UNIX-Client socket (TCP) application and establish connection and observe client and server communication.
        
-    4. Write a simple UNIX-Server and UNIX-Client socket (UDP) application and establish connection and observe client and server communication.
+4. Write a simple UNIX-Server and UNIX-Client socket (UDP) application and establish connection and observe client and server communication.
        
-    5. Write a simple Server socket application that will publish a message into its group(with Client). Design an simple Multi-cast  Socket application.
+5. Write a simple Server socket application that will publish a message into its group(with Client). Design an simple Multi-cast  Socket application.
        
-    6. Write a simple Server socket application that will publish a message to all. Design an simple Broadcast Socket application.
+6. Write a simple Server socket application that will publish a message to all. Design an simple Broadcast Socket application.
