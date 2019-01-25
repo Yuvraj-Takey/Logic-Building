@@ -1,24 +1,18 @@
 # PCAP(Packet Capturing Library) Programming
 
-	Nowadays, computer networks are usually large and diverse systems that communicate using a wide variety of protocols.
-This complexity created the need for more sophisticated tools to monitor and troubleshoot network traffic.
-Today, one of the critical tools in any network administrator toolbox is the sniffer
+- Nowadays, computer networks are usually large and diverse systems that communicate using a wide variety of protocols.
+This complexity created the need for more sophisticated tools to monitor and troubleshoot network traffic. Today, one of the critical tools in any network administrator toolbox is the sniffer
 
-	Sniffers, also known as packet analyzers are programs that have the ability to intercept the traffic that passes over a network
+- Sniffers, also known as packet analyzers are programs that have the ability to intercept the traffic that passes over a network
 
-	Packet capture is the action of collecting data as it travels over a network. Sniffers are the best example of packet 
-capture systems but many other types of applications need to grab packets off a network card.
-Those include network statistical tools, intrusion detection
+- Packet capture is the action of collecting data as it travels over a network. Sniffers are the best example of packet 
+capture systems but many other types of applications need to grab packets off a network card. Those include network statistical tools, intrusion detection
 
-	Libpcap is an open source library that provides a high level interface to network packet capture systems.
+- Libpcap is an open source library that provides a high level interface to network packet capture systems.
 It was created in 1994 by McCanne, Leres and Jacobson - researchers at the Lawrence Berkeley National Laboratory from the
-University of California at Berkeley as part of a research project to investigate and improve TCP and Internet gateway performance
-Libpcap authors' main objective was ta create a platform-independent API to eliminate the need for system-dependent packet capture
-modules in each application, as virtually every Os vendor implements its own capture mechanisms.
+University of California at Berkeley as part of a research project to investigate and improve TCP and Internet gateway performance Libpcap authors' main objective was ta create a platform-independent API to eliminate the need for system-dependent packet capture modules in each application, as virtually every Os vendor implements its own capture mechanisms.
 
-	The libpcap API is designed to be used from C and C++. However there are many wrappers that allow its use from languages like Perl,
-Python, Java, C# or Ruby. Libpcap runs on most UNIX-like operating systems (Linux, Solaris, BSD, HP...). There is also a Windows version
-named Winpcap
+- The libpcap API is designed to be used from C and C++. However there are many wrappers that allow its use from languages like Perl,Python, Java, C# or Ruby. Libpcap runs on most UNIX-like operating systems (Linux, Solaris, BSD, HP...). There is also a Windows version named Winpcap
 
 
 # Implement the following programs using pcap library
