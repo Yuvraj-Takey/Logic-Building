@@ -25,10 +25,10 @@ digit precision after decimal point
 equal to 40, It should display “Both are less than or equal to 40” otherwise, it should display as “Both are not
 less than or equal to 40”. Implement this using if-else statement as well as with conditional operator.
 2. Develop a C program which accepts character type data item from user. In case if user typed
-‘A’ or ‘a’, it should display A for Apple
-‘B’ or ‘b’, it should display B for Bat
-‘D’ or ‘d’, it should display D for Dog
-‘F’ or ‘f’, it should display F for Fan
+  ‘A’ or ‘a’, it should display A for Apple
+  ‘B’ or ‘b’, it should display B for Bat
+  ‘D’ or ‘d’, it should display D for Dog
+  ‘F’ or ‘f’, it should display F for Fan
 Instead of the above 4 characters, if user types any other character, it should display “Character is not in the
 range”. Implement this using if-else statement and switch statement.
 3. Develop a C program which adds all numbers from 1 to N, except those which are divisible by 5.
