@@ -249,26 +249,27 @@ prints out the last n lines, where n is any integer. Your program should make th
 corresponding bit pattern for this value. Then evaluate each of the following bitwise expressions, first
 showing the resulting bit pattern and then the equivalent hexadecimal value. Utilize the original value of a in
 each expression. Assume that a is stored in a 16-bit word
-a) ~a
-b) a ^ 0x3f06c) a | 0x3f06
-d) a | ~0x3f06
-e) a >> 3
-f) a << 5g) a ^ ~a
-h) a | ~a
-i) (a & ~0x3f06) << 8
-j) a & ~ (0x3f06 >> 8
+  - ~a
+  - a ^ 0x3f06c) a | 0x3f06
+  - a | ~0x3f06
+  - a >> 3
+  - a << 5g) a ^ ~a
+  - a | ~a
+  - (a & ~0x3f06) << 8
+  - a & ~ (0x3f06 >> 8
+
 3. Write a C program that will accept a hexadecimal number as input, and then display a menu that will permit
 any of the following operations to be carried out
-a) Display the hexadecimal equivalent of the one’s complement
-b) Carry out a masking operation and then display the hexadecimal equivalent of the result
-c) Carry out a bit shifting operation and then display the hexadecimal equivalent of the result
-d) Exit
+  - Display the hexadecimal equivalent of the one’s complement
+  - Carry out a masking operation and then display the hexadecimal equivalent of the result
+  - Carry out a bit shifting operation and then display the hexadecimal equivalent of the result
+  - Exit
 If the masking operation is selected, prompt the user for the type of operation (bitwise and, bitwise exclusive
 or, or bitwise or) and then a (hexadecimal) value for the mask. If the bit shifting operation is selected, prompt
 the user for the type of shift (left to right), and then the number of bits.
 4. Write a C program that will illustrate the equivalence between
-◦ Shifting a binary number to the left n bits and multiplying the binary number by 2n
-◦ Shifting a binary number to the right n bits and dividing the binary number by 2n.
+  - Shifting a binary number to the left n bits and multiplying the binary number by 2n
+  - Shifting a binary number to the right n bits and dividing the binary number by 2n.
 Choose the initial binary number carefully, so that bits will not be lost as a result of the shifting operation.
 
 ### Preprocessor
