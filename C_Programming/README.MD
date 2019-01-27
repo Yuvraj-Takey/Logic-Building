@@ -180,24 +180,27 @@ seconds.
 odd, multiply by 3 and add 1. Repeat this process until the value is 1, printing out each value. Finally print out
 how many of these operations you performed.
 Typical output might be:
-  Inital value is 9
-Next value is 28
-Next value is 14
-Next value is 7
-Next value is 22
-Next value is 11Next value is 34
-Next value is 17
-Next value is 52
-Next value is 26
-Next value is 13
-Next value is 40
-Next value is 20
-Next value is 10
-Next value is 5
-Next value is 16
-Next value is 8
-Next value is 4Next value is 2
-Final value 1, number of steps 19
+  Inital value is 9 ,
+Next value is 28 ,
+Next value is 14 ,
+Next value is 7 ,
+Next value is 22 ,
+Next value is 11 ,
+Next value is 34 ,
+Next value is 17 ,
+Next value is 52 ,
+Next value is 26 ,
+Next value is 13 ,
+Next value is 40 ,
+Next value is 20 ,
+Next value is 10 ,
+Next value is 5 ,
+Next value is 16 ,
+Next value is 8 ,
+Next value is 4 ,
+Next value is 2 ,
+Final value 1 , 
+number of steps 19 , 
 If the input value is less than 1, print a message containing the word
 Error
 and perform an exit( 0 );
@@ -206,26 +209,34 @@ a time until you encounter end-of-data. Then print out the number of occurrences
 o and u in the text, the total number of letters, and each of the vowels as an integer percentage of the letter
 total.
 Suggested output format is:
+```
 Numbers of characters:
 a 3 ; e 2 ; i 0 ; o 1 ; u 0 ; rest 17
 Percentages of total:
 a 13%; e 8%; i 0%; o 4%; u 0%; rest 73%
+```
 Read characters to end of data using a construct such as
-char ch;
+```
+char ch ; 
 while(( ch = getchar() ) >= ) {
 /* ch is the next character */ ....}
+```
 to read characters one at a time using getchar() until a negative value is returned.
+
 10. Write a program to read English text to end-of-data (type control-D to indicate end of data at a terminal,
 see below for detecting it), and print a count of word lengths, i.e. the total number of words of length 1 which
 occurred, the number of length 2, and so on.
 Define a word to be a sequence of alphabetic characters. You should allow for word lengths up to 25 letters.
 Typical output should be like this:
+```
 length 1 : 10 occurrences
 length 2 : 19 occurrences
 length 3 : 127 occurrences
 length 4 : 0 occurrences
 length 5 : 18 occurrences
 ....
+```
+
 11. Write a program last that prints the last n lines of its text input. By default n should be 5, but your program
 should allow an optional argument so that
 last -n
