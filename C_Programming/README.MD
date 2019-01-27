@@ -28,7 +28,7 @@ less than or equal to 40”. Implement this using if-else statement as well as w
   - ‘A’ or ‘a’, it should display A for Apple
   - ‘B’ or ‘b’, it should display B for Bat
   - ‘D’ or ‘d’, it should display D for Dog
-  - ‘F’ or ‘f’, it should display F for Fan
+  - ‘F’ or ‘f’, it should display F for Fan.
 Instead of the above 4 characters, if user types any other character, it should display “Character is not in the
 range”. Implement this using if-else statement and switch statement.
 3. Develop a C program which adds all numbers from 1 to N, except those which are divisible by 5.
@@ -73,29 +73,32 @@ otherwise -1.
 ### Pointers
 1. A C program contains the following declaration
 int x[8]= {10,20,30,40,50,60,70,80};
- What is the meaning of x?
- What is the meaning of (x+2)?
- What is the value of *x?
- What is the value of (*x+2)?
- What is the value of *(x+2)?.
+  - What is the meaning of x?
+  - What is the meaning of (x+2)?
+  - What is the value of *x?
+  - What is the value of (*x+2)?
+  - What is the value of *(x+2)?.
+
 2. A C program contains the following declaration
 float table[2][3] = { { 1.1,1.2,1.3},{2.1,2.2,2.3}};
-a) What is the meaning of a table?
-b) What is the meaning of (table+1)?
-c) What is the meaning of *(table+1)?
-d) What is the meaning of (*(table+1)+1)?
-e) What is the meaning of (*(table)+1)?
-f) What is the value of *(*(table+1) +1)?
-g) What is the value of *(*(table)+1)?
-h) What is the value of *(*(table+1)?
-i) What is the value of *(*(table) + 1)+1?
+  a) What is the meaning of a table?
+  b) What is the meaning of (table+1)?
+  c) What is the meaning of *(table+1)?
+  d) What is the meaning of (*(table+1)+1)?
+  e) What is the meaning of (*(table)+1)?
+  f) What is the value of *(*(table+1) +1)?
+  g) What is the value of *(*(table)+1)?
+  h) What is the value of *(*(table+1)?
+  i) What is the value of *(*(table) + 1)+1?
+
 3. A C program contains the following declaration
 char *color[6] = {“red”, “green”, “blue”, “white”, “black”, “yellow”};
-a. What is the meaning of color?
-b. What is the meaning of (color+2);
-c. What is the value of *color?
-d. What is the value of *(color+2)?
-e. How do color[5] and *(color + 5) differ?.
+  a. What is the meaning of color?
+  b. What is the meaning of (color+2);
+  c. What is the value of *color?
+  d. What is the value of *(color+2)?
+  e. How do color[5] and *(color + 5) differ?.
+
 4. Write a program to count the number of ‘e’ in the following array of pointer to
 char * s [ ] = {
 “we will teach you how to “ ;
