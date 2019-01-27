@@ -1,5 +1,11 @@
-C Programming Assignment
-Operators and operands
+# C Programming Language
+C is a general-purpose, imperative computer programming language, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations. By design, C provides constructs that map efficiently to typical machine instructions, and therefore it has found lasting use in applications that had formerly been coded in assembly language, including operating systems, as well as various application software for computers ranging from supercomputers to embedded systems.
+
+It was initially developed by Dennis Ritchie between 1969 and 1973. It was mainly developed as a system programming language to write operating system. The main features of C language include low-level access to memory, simple set of keywords, and clean style, these features make C language suitable for system programming like operating system or compiler development.
+
+
+## C Programming Assignment
+### Operators and operands
 1. Develop a C program to perform operations (+,*,-, / and %) on two whole numbers. Identify suitable data
 types to represent the numbers and resultant values
 2. Develop a C program to add two operands and store the result in one of the operand using addition
@@ -8,10 +14,12 @@ assignment operator.
 4. Write a menu based C program to perform operations (+, - and *) on matrices.
 5. Write a program to perform operations on complex numbers.
 6. Write a program to find whether the given processor is little endian or big endian.
-Basic Data Types
+
+### Basic Data Types
 1. Develop a C program to calculate simple interest using the formula I=PTR/100. Display Interest with two
 digit precision after decimal point
-Control Sequence
+
+### Control Sequence
 1. Develop a C program having following logic. If i is 20 or j is 20, display as “Atleast one variable is having
 20” otherwise display “Both variables are not having 20”. If i is less than or equal to 40 and j is less than or
 equal to 40, It should display “Both are less than or equal to 40” otherwise, it should display as “Both are not
@@ -34,10 +42,12 @@ Hint: (153 = 1^3 + 5^3 + 3^3)
 10. Write a program to find the sum of digits of a given number.
 11. Write a C program to generate two Relatively Prime numbers.
 12. Write a program to generate Random number
-Storage Class Specifiers
+
+### Storage Class Specifiers
 1. Develop multi file program to understand static, auto, register, global, static global variables.What is the
 scope and lifetime of each of these types of variables.
-Arrays
+
+### Arrays
 1. Write a program to read your name into a character array. Print the name along with the length of your
 name and sizeof the array in which name is stored.
 2. Use scanf function to read a string of characters (into character type array called text) including alphabets,
@@ -46,7 +56,8 @@ type array and determine how many of the characters are letters, how many are di
 and how many are tabs. Assume that text contains 80 characters.
 3. Write a program that reads a number that says how many integer numbers are to be stored in an array,
 creates an array to fit the exact size of the data and then reads in that many numbers into the array.
-Functions
+
+### Functions
 1. Write a program to calculate n!/(n-r)! using functions.
 2. Write a recursive function to find factorial of a number.
 3. Write a function to swap contents of two variables using functions and pointer variables.4.
@@ -57,7 +68,9 @@ expression.
 6. Write a function to get the transpose of a matrix.
 7. Write a C program with a function indexr(s,t), which returns the index of right most occurrence of t in s
 otherwise -1.
-8. Write a C program with a recursive function itoa, which converts integer into a string.Pointers
+8. Write a C program with a recursive function itoa, which converts integer into a string.
+
+### Pointers
 1. A C program contains the following declaration
 int x[8]= {10,20,30,40,50,60,70,80};
  What is the meaning of x?
@@ -98,7 +111,9 @@ n = replace( cat );
 should set
 cat to "The-cat-sat"
 and
-n to 2.Strings
+n to 2.
+
+### Strings
 1. Write a program to convert lower case string to upper case string and vice versa.
 2. Write a program to reverse a string using recursive functions
 3. Write a program to read n number of strings using two-dimensional character array, sort them and display
@@ -120,7 +135,8 @@ like \n and \t as it copies the string s to t. Use switch statement and also dis
 should be: space paces acesp cespa espac.
 12. Implement string library functions. strrev, strcpy, strcat, strcmp with same return values and all error
 handling features using pointers.
-Structures,Unions and Enumeration
+
+### Structures,Unions and Enumeration
 1. Write a program to represent time of the day in hrs, mins and secs. Use structures.
 2. Define structure with two members (one int and other char). Also define s union with two members (one int
 and other char). Print the sizes of structure and union in number of bytes.
@@ -140,7 +156,8 @@ variables.
 represent the status of search. Define flag as an enumeration variable whose value is either true or false.
 6. Write a menu driven C program to perform operations on Complex numbers. Use enumeration data type to
 identify the different operations on Complex numbers.
-Files ,Console I/O and Command line arguments
+
+### Files ,Console I/O and Command line arguments
 1. Experiment to find out what happens when printf argument string contains \x, where x is some character (a,
 b, c, \, ^ etc). What are your observations.
 2. Write a program to remove all the comments from a ‘C’ program.
@@ -210,7 +227,8 @@ should allow an optional argument so that
 last -n
 prints out the last n lines, where n is any integer. Your program should make the best use of available storage.
 (Input of text could be by reading a file specified from the command or reading a file from standard input)
-Bitwise Operations
+
+### Bitwise Operations
 1. Write a program to count number of bits as “1” in an 8 bit number.
 2. Write a program in which define a as an unsigned integer whose value is (hexadecimal) 0xa2c3. Write the
 corresponding bit pattern for this value. Then evaluate each of the following bitwise expressions, first
@@ -237,7 +255,8 @@ the user for the type of shift (left to right), and then the number of bits.
 ◦ Shifting a binary number to the left n bits and multiplying the binary number by 2n
 ◦ Shifting a binary number to the right n bits and dividing the binary number by 2n.
 Choose the initial binary number carefully, so that bits will not be lost as a result of the shifting operation.
-Preprocessor
+
+### Preprocessor
 1. Write a C program to calculate factorial of a number. Factorial function has to be written as a multiline
 macro.
 2. Develop sample programs using preprocessor operators #, ## and also conditional compilation.
