@@ -101,12 +101,13 @@ char *color[6] = {“red”, “green”, “blue”, “white”, “black”, 
 
 4. Write a program to count the number of ‘e’ in the following array of pointer to
 char * s [ ] = {
-“we will teach you how to “ ;
-“Move a mountain “ ;
-“Level a building “ ;
-“Erase the past “;
-“Make a million “ ;
+  “we will teach you how to “ ;
+  “Move a mountain “ ;
+  “Level a building “ ;
+  “Erase the past “;
+  “Make a million “ ;
 } the string.
+
 5. Write a function ``replace'' which takes a pointer to a string as a parameter, which replaces all spaces in that
 string by minus signs, and delivers the number of spaces it replaced.
 Thus, char *cat = "The cat sat";
@@ -179,7 +180,7 @@ seconds.
 odd, multiply by 3 and add 1. Repeat this process until the value is 1, printing out each value. Finally print out
 how many of these operations you performed.
 Typical output might be:
-Inital value is 9
+  Inital value is 9
 Next value is 28
 Next value is 14
 Next value is 7
