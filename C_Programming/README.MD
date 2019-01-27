@@ -149,7 +149,7 @@ c) What are the largest values that can be assigned to each of the bit fields de
 d) Define three bit fields, called a, b and c, whose widths are 8 bits, 6 bits and 5 bits, respectively. How
 will these fields be stored within the computer’s memory?
 e) Define three bit fields, called a, b and c, whose widths are 8 bits, 6 bits and 5-bits respectively.
-Separate a and b with 2 vacant bits.4. Develop a program to generate marks sheet of C-DAC, Hyderabad Students (DSSD, DESD and DAC
+Separate a and b with 2 vacant bits.4. Develop a program to generate marks sheet of B-Tech, Hyderabad Students (DSSD, DESD and DAC
 courses). Modules are different for each course. Implement this using structures, unions, arrays, loops and
 variables.
 5. Write a program to search for a given element in a list of elements using Linear Search. Use flag to
