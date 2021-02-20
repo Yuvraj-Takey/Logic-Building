@@ -17,7 +17,6 @@ def DigitCnt(iNum):
         iCnt = iCnt + 1
         iNum = iNum / 10
 
-
     return iCnt
     
 # ==================
